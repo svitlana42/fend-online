@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+</head>
+<body>
+    <h1>Отзывы</h1>
+    <p>
+        <strong>Приветствуем вас и ожидаем отзыв о совершенной покупке в нашем магазине.</strong>
+    </p><br><br><br>
+    
+<form action="/submit-form" method="post" enctype="multipart/form-data" >
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="user_name" placeholder="Введите ваше имя" required>
+    <input type="reset" value="Очистить">
+    <br><br><br>
+
+    <label for="birthday">Выберите дату рождения:</label>
+    <input type="date" id="birthday" name="birthday" min="1930-01-01" max="2027-12-31"><br><br><br>
+
+    <label for="review">Ваш отзыв</label><br>
+    <textarea name="review" id="review" rows="7" cols="50"></textarea>
+    <input type="reset" value="Очистить"><br><br><br>
+
+    <label for="file">Прикрепите файл (не обязательно):</label>
+    <input type="file" name="file[]" multiple>
+    <br><br><br>
+
+    <label for="productPhoto">Прикрепите фото товара (не обязательно):</label>
+    <input type="file" id="productPhoto" name="productPhoto[]" accept="image/*" multiple>
+    <br><br>
+
+    <label class="image-radio">
+        <input type="radio" name="image" value="1">
+        <img src="../img/3.jpg" width="70" height="70" alt="Недовольный смайлик">
+    </label>
+
+    <label class="image-radio">
+        <input type="radio" name="image" value="2">
+        <img src="../img/4.png" width="70" height="70" alt="Довольный смайлик">
+    </label><br><br><br>
+
+    <p>
+        <strong>Если у вас остались вопросы, оставьте ваш номер телефона и наш менеджер свяжется с вами.</strong>
+    </p>
+
+    <label for="phone">Введите номер телефона:</label>
+    <input type="tel" id="phone" name="phone" placeholder="+380 (66) 000-00-00">
+    <input type="reset" value="Очистить">
+    <br><br><br>
+
+    <label>
+        <input type="checkbox" name="subscribe" value="yes" checked> Хочу получать уведомления о новом товаре
+    </label><br><br><br>
+    <label>
+        <input type="checkbox" name="terms" value="agreed"> Я согласен(на) на обработку моих персональных данных
+    </label><br><br><br>
+
+    <button type="submit">Отправить</button>
+</form>
+</body>
+</html>
