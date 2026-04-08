@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/travel.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/Logo.png" alt="Travelers">
+        </div>
+
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Destinations</a>
+            <a href="#">Gallery</a>
+            <a href="#">About Us</a>
+            <button class="guide-btn">Book Guide</button>
+        </nav>
+
+    </header>
+
+    <section class="container">
+        <div class="container-text">
+            <h1>Know the <span>BEST</span> places to visit when you are on <span>VACATION</span></h1>
+            <p>
+                We offer the best and relaxing atmosphere and have one of the best deal to sweeten your vacation and
+                make it a trip to remember. We have luxurious destinations around the world.
+            </p>
+        </div>
+    </section>
+
+    <div class="search-wrapper">
+        <div class="left-search">
+            <input type="checkbox" id="left-toggle" class="left-toggle">
+            <label for="left-toggle" class="left-label">
+                <span>Where will we take you?</span>
+                <span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+            </label>
+            <div class="content">
+                <select>
+                    <option>Europe</option>
+                </select>
+            </div>
+        </div>
+
+        <form class="search">
+            <div class="custom-select">
+                <select>
+                    <option>Country</option>
+                    <option>Italy</option>
+                </select>
+            </div>
+
+            <div class="custom-select">
+                <select>
+                    <option>City</option>
+                    <option>Rome</option>
+                </select>
+            </div>
+
+            <div class="custom-select">
+                <select>
+                    <option>Place</option>
+                    <option>Museum</option>
+                </select>
+            </div>
+
+            <button type="submit" class="search-btn">Search Place</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="down">
+            <input type="checkbox" id="down-toggle" class="down-toggle">
+            <label for="down-toggle" class="down-label">
+                <span>See Destinations</span>
+                <span>
+                    <i class="fa-solid fa-angles-down"></i>
+                </span>
+            </label>
+            <div class="down-content">
+                <select>
+                    <option>Africa</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
