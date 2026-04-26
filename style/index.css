@@ -68,7 +68,12 @@ header {
     background-size: cover;
 }
 
+.top-section .h1-wrapper {
+    overflow: hidden;
+}    
+
 .top-section h1 {
+    display: block;
     font-family: "Shadows Into Light", cursive;
     font-size: 6.875rem;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
