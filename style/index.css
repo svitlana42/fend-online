@@ -25,19 +25,19 @@ header {
 }
 
 .navbar-toggler.collapsed .icon-cross {
-    display: none;
+    display: none !important;
 }
 
 .navbar-toggler.collapsed .icon-burger {
-    display: inline-block;
+    display: inline-block !important;
 }
 
 .navbar-toggler:not(.collapsed) .icon-burger {
-    display: none;
+    display: none !important;
 }
 
 .navbar-toggler:not(.collapsed) .icon-cross {
-    display: inline-block;
+    display: inline-block !important;
 }
 
 /* второй вариант burger */
