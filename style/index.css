@@ -242,6 +242,7 @@ footer {
         position: absolute;
         right: 1.5rem;
         top: 100%;
+        margin: 0 !important;
         width: 14.06rem;
         z-index: 1000;
     }
