@@ -40,27 +40,6 @@ header {
     display: inline-block !important;
 }
 
-/* второй вариант burger */
-/* .burger-icon span {
-    display: block;
-    width: 2.13rem;
-    height: 4px;
-    background-color: rgba(255, 255, 255, 1);
-    margin: 7px 0;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
-    transform: translateY(11px) rotate(45deg);    
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(2) {
-    opacity: 0;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(3) {
-    transform: translateY(-11px) rotate(-45deg);    
-} */
-
 .top-section {
     min-height: 31rem;
     background-repeat: no-repeat;
@@ -234,21 +213,3 @@ footer {
         transform: none;
     }
 }
-
-/* второй вариант burger */
-/* @media (max-width: 992px) {
-    .navbar-collapse {
-        background-color: rgba(255, 255, 255, 1);
-        position: absolute;
-        right: 1.5rem;
-        top: 100%;
-        margin: 0 !important;
-        width: 14.06rem;
-        z-index: 1000;
-    }
-
-    .nav-link {
-        color: rgba(102, 142, 104, 1);
-        margin-right: 0 !important;
-    }
-} */
